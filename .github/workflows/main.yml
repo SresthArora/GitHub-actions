@@ -1,4 +1,4 @@
-name: YO-world
+name: demo workflow
 on: push
 jobs:
   my-job:
