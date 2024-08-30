@@ -14,7 +14,6 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Run JMeter Action on a test
-        uses: SresthArora/GitHub-actions
         with:
           testFilePath: Demo.jmx
           outputReportsFolder: reports/
